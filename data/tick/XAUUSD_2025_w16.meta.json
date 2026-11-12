@@ -1,0 +1,83 @@
+{
+ "file": "XAUUSD_2025_w16.csv.gz",
+ "instrument": "XAUUSD",
+ "week_index": 16,
+ "date_from": "2025-04-16",
+ "date_to_exclusive": "2025-04-23",
+ "rows": 1110206,
+ "compressed_bytes": 8748048,
+ "first_tick_utc": "2025-04-16 00:00:00.021",
+ "last_tick_utc": "2025-04-22 23:59:59.784",
+ "trading_days": 5,
+ "price_high": 3500.215,
+ "price_low": 3251.78,
+ "days": [
+  {
+   "date": "2025-04-16",
+   "ticks": 265352,
+   "first_tick": "2025-04-16 00:00:00.021",
+   "last_tick": "2025-04-16 23:59:59.948",
+   "open": 3251.975,
+   "high": 3357.78,
+   "low": 3251.78,
+   "close": 3350.165,
+   "ask_volume_m": 46.652067,
+   "bid_volume_m": 51.90287,
+   "avg_spread": 0.621
+  },
+  {
+   "date": "2025-04-17",
+   "ticks": 234676,
+   "first_tick": "2025-04-17 00:00:00.205",
+   "last_tick": "2025-04-17 20:58:59.850",
+   "open": 3350.2,
+   "high": 3356.48,
+   "low": 3283.94,
+   "close": 3327.415,
+   "ask_volume_m": 38.83938,
+   "bid_volume_m": 37.30403,
+   "avg_spread": 0.657
+  },
+  {
+   "date": "2025-04-20",
+   "ticks": 14672,
+   "first_tick": "2025-04-20 22:00:02.442",
+   "last_tick": "2025-04-20 23:59:59.685",
+   "open": 3332.72,
+   "high": 3353.51,
+   "low": 3328.92,
+   "close": 3348.3,
+   "ask_volume_m": 3.11687,
+   "bid_volume_m": 3.62455,
+   "avg_spread": 0.7941
+  },
+  {
+   "date": "2025-04-21",
+   "ticks": 249843,
+   "first_tick": "2025-04-21 00:00:00.262",
+   "last_tick": "2025-04-21 23:59:59.992",
+   "open": 3348.605,
+   "high": 3444.535,
+   "low": 3347.625,
+   "close": 3435.004,
+   "ask_volume_m": 44.15031,
+   "bid_volume_m": 40.71072,
+   "avg_spread": 0.6377
+  },
+  {
+   "date": "2025-04-22",
+   "ticks": 345663,
+   "first_tick": "2025-04-22 00:00:00.043",
+   "last_tick": "2025-04-22 23:59:59.784",
+   "open": 3435.036,
+   "high": 3500.215,
+   "low": 3313.095,
+   "close": 3336.755,
+   "ask_volume_m": 70.423947,
+   "bid_volume_m": 49.518575,
+   "avg_spread": 0.7414
+  }
+ ],
+ "source": "Dukascopy Bank SA public data feed via dukascopy-node",
+ "schema": "timestamp,ask,bid,ask_volume,bid_volume (UTC, ms)"
+}
