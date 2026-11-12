@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset in your research or trading tools, please cite it and star the repository."
+title: "XAUUSD Tick Data 2025 — Free Gold Tick-by-Tick Historical Dataset (Complete Year)"
+type: dataset
+authors:
+  - alias: Touhid-HZ
+repository-code: "https://github.com/Touhid-HZ/xauusd-tick-data-2025"
+abstract: >-
+  Complete tick-by-tick historical data for spot gold (XAU/USD) covering the
+  full 2025 calendar year (January 1 to December 31), sourced from Dukascopy
+  Bank SA's public data feed. 71.4 million ticks with UTC millisecond
+  timestamps, bid/ask prices and volumes, delivered as 53 weekly gzip CSVs
+  plus daily OHLCV aggregates.
+keywords:
+  - XAUUSD
+  - gold
+  - tick-data
+  - 2025
+  - historical-data
+  - dukascopy
+  - forex
+  - backtesting
+  - quantitative-finance
+  - dataset
+  - metatrader
+  - pandas
+license: MIT
+committers:
+  - alias: Touhid-HZ
