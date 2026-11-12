@@ -1,0 +1,31 @@
+{
+ "file": "XAUUSD_2025_w53.csv.gz",
+ "instrument": "XAUUSD",
+ "week_index": 53,
+ "date_from": "2025-12-31",
+ "date_to_exclusive": "2026-01-01",
+ "rows": 440904,
+ "compressed_bytes": 3276119,
+ "first_tick_utc": "2025-12-31 00:00:00.007",
+ "last_tick_utc": "2025-12-31 21:58:59.943",
+ "trading_days": 1,
+ "price_high": 4373.4,
+ "price_low": 4274.365,
+ "days": [
+  {
+   "date": "2025-12-31",
+   "ticks": 440904,
+   "first_tick": "2025-12-31 00:00:00.007",
+   "last_tick": "2025-12-31 21:58:59.943",
+   "open": 4339.07,
+   "high": 4373.4,
+   "low": 4274.365,
+   "close": 4319.191,
+   "ask_volume_m": 69.66516,
+   "bid_volume_m": 65.19928,
+   "avg_spread": 0.9159
+  }
+ ],
+ "source": "Dukascopy Bank SA public data feed via dukascopy-node",
+ "schema": "timestamp,ask,bid,ask_volume,bid_volume (UTC, ms)"
+}

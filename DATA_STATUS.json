@@ -1,0 +1,591 @@
+{
+ "dataset": "XAUUSD tick-by-tick historical data (2025) \u2014 spot gold vs US dollar",
+ "instrument": "XAUUSD (Spot Gold / US Dollar, OTC)",
+ "source": "Dukascopy Bank SA public data feed (https://datafeed.dukascopy.com), decoded via dukascopy-node + custom decoder, cross-validated row-by-row",
+ "timezone": "UTC (GMT)",
+ "schema": {
+  "timestamp": "string, UTC, 'YYYY-MM-DD HH:MM:SS.mmm' (millisecond precision)",
+  "ask": "float, USD per troy ounce, 3 decimals",
+  "bid": "float, USD per troy ounce, 3 decimals",
+  "ask_volume": "float, millions of units (Dukascopy convention)",
+  "bid_volume": "float, millions of units (Dukascopy convention)"
+ },
+ "generated_at_utc": "2026-11-12 08:04:51",
+ "coverage": {
+  "from": "2025-01-01",
+  "to_exclusive": "2026-01-01",
+  "first_tick_utc": "2025-01-01 23:00:00.455",
+  "last_tick_utc": "2025-12-31 21:58:59.943"
+ },
+ "totals": {
+  "ticks": 71403972,
+  "days_with_ticks": 312,
+  "weekdays_with_ticks": 260,
+  "sundays_with_ticks": 52,
+  "weekly_files": 53,
+  "compressed_bytes": 533961913,
+  "compressed_mb": 534.0
+ },
+ "price_range_usd_per_oz": {
+  "low": 2614.695,
+  "high": 4550.13
+ },
+ "years": {
+  "2025": {
+   "coverage": {
+    "from": "2025-01-01",
+    "to_exclusive": "2026-01-01",
+    "first_tick_utc": "2025-01-01 23:00:00.455",
+    "last_tick_utc": "2025-12-31 21:58:59.943"
+   },
+   "totals": {
+    "ticks": 71403972,
+    "days_with_ticks": 312,
+    "weekdays_with_ticks": 260,
+    "sundays_with_ticks": 52,
+    "weekly_files": 53,
+    "compressed_bytes": 533961913,
+    "compressed_mb": 534.0
+   },
+   "price_range_usd_per_oz": {
+    "low": 2614.695,
+    "high": 4550.13
+   },
+   "daily_ohlcv": "data/daily/XAUUSD_2025_daily_ohlcv.csv",
+   "files": [
+    {
+     "file": "XAUUSD_2025_w01.csv.gz",
+     "week": 1,
+     "date_from": "2025-01-01",
+     "date_to_exclusive": "2025-01-08",
+     "rows": 979705,
+     "compressed_bytes": 7083357,
+     "first_tick_utc": "2025-01-01 23:00:00.455",
+     "last_tick_utc": "2025-01-07 23:59:58.440"
+    },
+    {
+     "file": "XAUUSD_2025_w02.csv.gz",
+     "week": 2,
+     "date_from": "2025-01-08",
+     "date_to_exclusive": "2025-01-15",
+     "rows": 1322071,
+     "compressed_bytes": 9601867,
+     "first_tick_utc": "2025-01-08 00:00:00.349",
+     "last_tick_utc": "2025-01-14 23:59:59.632"
+    },
+    {
+     "file": "XAUUSD_2025_w03.csv.gz",
+     "week": 3,
+     "date_from": "2025-01-15",
+     "date_to_exclusive": "2025-01-22",
+     "rows": 1319086,
+     "compressed_bytes": 9489024,
+     "first_tick_utc": "2025-01-15 00:00:00.388",
+     "last_tick_utc": "2025-01-21 23:59:58.533"
+    },
+    {
+     "file": "XAUUSD_2025_w04.csv.gz",
+     "week": 4,
+     "date_from": "2025-01-22",
+     "date_to_exclusive": "2025-01-29",
+     "rows": 1298658,
+     "compressed_bytes": 9228597,
+     "first_tick_utc": "2025-01-22 00:00:00.107",
+     "last_tick_utc": "2025-01-28 23:59:59.431"
+    },
+    {
+     "file": "XAUUSD_2025_w05.csv.gz",
+     "week": 5,
+     "date_from": "2025-01-29",
+     "date_to_exclusive": "2025-02-05",
+     "rows": 1621779,
+     "compressed_bytes": 11534936,
+     "first_tick_utc": "2025-01-29 00:00:00.137",
+     "last_tick_utc": "2025-02-04 23:59:58.581"
+    },
+    {
+     "file": "XAUUSD_2025_w06.csv.gz",
+     "week": 6,
+     "date_from": "2025-02-05",
+     "date_to_exclusive": "2025-02-12",
+     "rows": 1526321,
+     "compressed_bytes": 10967276,
+     "first_tick_utc": "2025-02-05 00:00:00.087",
+     "last_tick_utc": "2025-02-11 23:59:59.760"
+    },
+    {
+     "file": "XAUUSD_2025_w07.csv.gz",
+     "week": 7,
+     "date_from": "2025-02-12",
+     "date_to_exclusive": "2025-02-19",
+     "rows": 1326261,
+     "compressed_bytes": 9494950,
+     "first_tick_utc": "2025-02-12 00:00:00.011",
+     "last_tick_utc": "2025-02-18 23:59:58.456"
+    },
+    {
+     "file": "XAUUSD_2025_w08.csv.gz",
+     "week": 8,
+     "date_from": "2025-02-19",
+     "date_to_exclusive": "2025-02-26",
+     "rows": 1374908,
+     "compressed_bytes": 9912936,
+     "first_tick_utc": "2025-02-19 00:00:00.717",
+     "last_tick_utc": "2025-02-25 23:59:59.663"
+    },
+    {
+     "file": "XAUUSD_2025_w09.csv.gz",
+     "week": 9,
+     "date_from": "2025-02-26",
+     "date_to_exclusive": "2025-03-05",
+     "rows": 1359101,
+     "compressed_bytes": 9938792,
+     "first_tick_utc": "2025-02-26 00:00:00.167",
+     "last_tick_utc": "2025-03-04 23:59:58.237"
+    },
+    {
+     "file": "XAUUSD_2025_w10.csv.gz",
+     "week": 10,
+     "date_from": "2025-03-05",
+     "date_to_exclusive": "2025-03-12",
+     "rows": 1437212,
+     "compressed_bytes": 10332077,
+     "first_tick_utc": "2025-03-05 00:00:00.192",
+     "last_tick_utc": "2025-03-11 23:59:57.485"
+    },
+    {
+     "file": "XAUUSD_2025_w11.csv.gz",
+     "week": 11,
+     "date_from": "2025-03-12",
+     "date_to_exclusive": "2025-03-19",
+     "rows": 1283976,
+     "compressed_bytes": 9213461,
+     "first_tick_utc": "2025-03-12 00:00:00.148",
+     "last_tick_utc": "2025-03-18 23:59:59.800"
+    },
+    {
+     "file": "XAUUSD_2025_w12.csv.gz",
+     "week": 12,
+     "date_from": "2025-03-19",
+     "date_to_exclusive": "2025-03-26",
+     "rows": 1214735,
+     "compressed_bytes": 8772916,
+     "first_tick_utc": "2025-03-19 00:00:00.104",
+     "last_tick_utc": "2025-03-25 23:59:56.705"
+    },
+    {
+     "file": "XAUUSD_2025_w13.csv.gz",
+     "week": 13,
+     "date_from": "2025-03-26",
+     "date_to_exclusive": "2025-04-02",
+     "rows": 1209325,
+     "compressed_bytes": 8940588,
+     "first_tick_utc": "2025-03-26 00:00:01.479",
+     "last_tick_utc": "2025-04-01 23:59:58.538"
+    },
+    {
+     "file": "XAUUSD_2025_w14.csv.gz",
+     "week": 14,
+     "date_from": "2025-04-02",
+     "date_to_exclusive": "2025-04-09",
+     "rows": 1823274,
+     "compressed_bytes": 13732728,
+     "first_tick_utc": "2025-04-02 00:00:00.148",
+     "last_tick_utc": "2025-04-08 23:59:59.989"
+    },
+    {
+     "file": "XAUUSD_2025_w15.csv.gz",
+     "week": 15,
+     "date_from": "2025-04-09",
+     "date_to_exclusive": "2025-04-16",
+     "rows": 1477494,
+     "compressed_bytes": 11353731,
+     "first_tick_utc": "2025-04-09 00:00:00.191",
+     "last_tick_utc": "2025-04-15 23:59:59.669"
+    },
+    {
+     "file": "XAUUSD_2025_w16.csv.gz",
+     "week": 16,
+     "date_from": "2025-04-16",
+     "date_to_exclusive": "2025-04-23",
+     "rows": 1110206,
+     "compressed_bytes": 8748048,
+     "first_tick_utc": "2025-04-16 00:00:00.021",
+     "last_tick_utc": "2025-04-22 23:59:59.784"
+    },
+    {
+     "file": "XAUUSD_2025_w17.csv.gz",
+     "week": 17,
+     "date_from": "2025-04-23",
+     "date_to_exclusive": "2025-04-30",
+     "rows": 1244153,
+     "compressed_bytes": 9845673,
+     "first_tick_utc": "2025-04-23 00:00:00.086",
+     "last_tick_utc": "2025-04-29 23:59:56.725"
+    },
+    {
+     "file": "XAUUSD_2025_w18.csv.gz",
+     "week": 18,
+     "date_from": "2025-04-30",
+     "date_to_exclusive": "2025-05-07",
+     "rows": 1199463,
+     "compressed_bytes": 9390820,
+     "first_tick_utc": "2025-04-30 00:00:00.085",
+     "last_tick_utc": "2025-05-06 23:59:59.933"
+    },
+    {
+     "file": "XAUUSD_2025_w19.csv.gz",
+     "week": 19,
+     "date_from": "2025-05-07",
+     "date_to_exclusive": "2025-05-14",
+     "rows": 1254424,
+     "compressed_bytes": 9878642,
+     "first_tick_utc": "2025-05-07 00:00:00.034",
+     "last_tick_utc": "2025-05-13 23:59:59.196"
+    },
+    {
+     "file": "XAUUSD_2025_w20.csv.gz",
+     "week": 20,
+     "date_from": "2025-05-14",
+     "date_to_exclusive": "2025-05-21",
+     "rows": 1201125,
+     "compressed_bytes": 9477456,
+     "first_tick_utc": "2025-05-14 00:00:00.200",
+     "last_tick_utc": "2025-05-20 23:59:59.783"
+    },
+    {
+     "file": "XAUUSD_2025_w21.csv.gz",
+     "week": 21,
+     "date_from": "2025-05-21",
+     "date_to_exclusive": "2025-05-28",
+     "rows": 1179035,
+     "compressed_bytes": 8912942,
+     "first_tick_utc": "2025-05-21 00:00:00.035",
+     "last_tick_utc": "2025-05-27 23:59:59.719"
+    },
+    {
+     "file": "XAUUSD_2025_w22.csv.gz",
+     "week": 22,
+     "date_from": "2025-05-28",
+     "date_to_exclusive": "2025-06-04",
+     "rows": 1265746,
+     "compressed_bytes": 9421156,
+     "first_tick_utc": "2025-05-28 00:00:00.071",
+     "last_tick_utc": "2025-06-03 23:59:59.655"
+    },
+    {
+     "file": "XAUUSD_2025_w23.csv.gz",
+     "week": 23,
+     "date_from": "2025-06-04",
+     "date_to_exclusive": "2025-06-11",
+     "rows": 1248767,
+     "compressed_bytes": 9388841,
+     "first_tick_utc": "2025-06-04 00:00:00.113",
+     "last_tick_utc": "2025-06-10 23:59:59.124"
+    },
+    {
+     "file": "XAUUSD_2025_w24.csv.gz",
+     "week": 24,
+     "date_from": "2025-06-11",
+     "date_to_exclusive": "2025-06-18",
+     "rows": 1245195,
+     "compressed_bytes": 9419815,
+     "first_tick_utc": "2025-06-11 00:00:00.130",
+     "last_tick_utc": "2025-06-17 23:59:57.685"
+    },
+    {
+     "file": "XAUUSD_2025_w25.csv.gz",
+     "week": 25,
+     "date_from": "2025-06-18",
+     "date_to_exclusive": "2025-06-25",
+     "rows": 1002878,
+     "compressed_bytes": 7577092,
+     "first_tick_utc": "2025-06-18 00:00:00.100",
+     "last_tick_utc": "2025-06-24 23:59:48.588"
+    },
+    {
+     "file": "XAUUSD_2025_w26.csv.gz",
+     "week": 26,
+     "date_from": "2025-06-25",
+     "date_to_exclusive": "2025-07-02",
+     "rows": 907620,
+     "compressed_bytes": 6805770,
+     "first_tick_utc": "2025-06-25 00:00:00.129",
+     "last_tick_utc": "2025-07-01 23:59:59.190"
+    },
+    {
+     "file": "XAUUSD_2025_w27.csv.gz",
+     "week": 27,
+     "date_from": "2025-07-02",
+     "date_to_exclusive": "2025-07-09",
+     "rows": 812807,
+     "compressed_bytes": 6146380,
+     "first_tick_utc": "2025-07-02 00:00:00.097",
+     "last_tick_utc": "2025-07-08 23:59:58.796"
+    },
+    {
+     "file": "XAUUSD_2025_w28.csv.gz",
+     "week": 28,
+     "date_from": "2025-07-09",
+     "date_to_exclusive": "2025-07-16",
+     "rows": 917896,
+     "compressed_bytes": 6849031,
+     "first_tick_utc": "2025-07-09 00:00:00.104",
+     "last_tick_utc": "2025-07-15 23:59:59.600"
+    },
+    {
+     "file": "XAUUSD_2025_w29.csv.gz",
+     "week": 29,
+     "date_from": "2025-07-16",
+     "date_to_exclusive": "2025-07-23",
+     "rows": 913575,
+     "compressed_bytes": 6786221,
+     "first_tick_utc": "2025-07-16 00:00:00.207",
+     "last_tick_utc": "2025-07-22 23:59:59.942"
+    },
+    {
+     "file": "XAUUSD_2025_w30.csv.gz",
+     "week": 30,
+     "date_from": "2025-07-23",
+     "date_to_exclusive": "2025-07-30",
+     "rows": 951932,
+     "compressed_bytes": 7132479,
+     "first_tick_utc": "2025-07-23 00:00:00.094",
+     "last_tick_utc": "2025-07-29 23:59:58.821"
+    },
+    {
+     "file": "XAUUSD_2025_w31.csv.gz",
+     "week": 31,
+     "date_from": "2025-07-30",
+     "date_to_exclusive": "2025-08-06",
+     "rows": 969283,
+     "compressed_bytes": 7221449,
+     "first_tick_utc": "2025-07-30 00:00:00.076",
+     "last_tick_utc": "2025-08-05 23:59:59.646"
+    },
+    {
+     "file": "XAUUSD_2025_w32.csv.gz",
+     "week": 32,
+     "date_from": "2025-08-06",
+     "date_to_exclusive": "2025-08-13",
+     "rows": 1510931,
+     "compressed_bytes": 11223830,
+     "first_tick_utc": "2025-08-06 00:00:00.048",
+     "last_tick_utc": "2025-08-12 23:59:56.628"
+    },
+    {
+     "file": "XAUUSD_2025_w33.csv.gz",
+     "week": 33,
+     "date_from": "2025-08-13",
+     "date_to_exclusive": "2025-08-20",
+     "rows": 845764,
+     "compressed_bytes": 6292929,
+     "first_tick_utc": "2025-08-13 00:00:00.141",
+     "last_tick_utc": "2025-08-19 23:59:58.891"
+    },
+    {
+     "file": "XAUUSD_2025_w34.csv.gz",
+     "week": 34,
+     "date_from": "2025-08-20",
+     "date_to_exclusive": "2025-08-27",
+     "rows": 820761,
+     "compressed_bytes": 6066184,
+     "first_tick_utc": "2025-08-20 00:00:00.149",
+     "last_tick_utc": "2025-08-26 23:59:59.231"
+    },
+    {
+     "file": "XAUUSD_2025_w35.csv.gz",
+     "week": 35,
+     "date_from": "2025-08-27",
+     "date_to_exclusive": "2025-09-03",
+     "rows": 1160829,
+     "compressed_bytes": 8503774,
+     "first_tick_utc": "2025-08-27 00:00:00.086",
+     "last_tick_utc": "2025-09-02 23:59:59.968"
+    },
+    {
+     "file": "XAUUSD_2025_w36.csv.gz",
+     "week": 36,
+     "date_from": "2025-09-03",
+     "date_to_exclusive": "2025-09-10",
+     "rows": 1410295,
+     "compressed_bytes": 10555567,
+     "first_tick_utc": "2025-09-03 00:00:00.070",
+     "last_tick_utc": "2025-09-09 23:59:58.810"
+    },
+    {
+     "file": "XAUUSD_2025_w37.csv.gz",
+     "week": 37,
+     "date_from": "2025-09-10",
+     "date_to_exclusive": "2025-09-17",
+     "rows": 1100541,
+     "compressed_bytes": 8115520,
+     "first_tick_utc": "2025-09-10 00:00:00.070",
+     "last_tick_utc": "2025-09-16 23:59:59.613"
+    },
+    {
+     "file": "XAUUSD_2025_w38.csv.gz",
+     "week": 38,
+     "date_from": "2025-09-17",
+     "date_to_exclusive": "2025-09-24",
+     "rows": 1321319,
+     "compressed_bytes": 9853591,
+     "first_tick_utc": "2025-09-17 00:00:00.117",
+     "last_tick_utc": "2025-09-23 23:59:59.321"
+    },
+    {
+     "file": "XAUUSD_2025_w39.csv.gz",
+     "week": 39,
+     "date_from": "2025-09-24",
+     "date_to_exclusive": "2025-10-01",
+     "rows": 1428470,
+     "compressed_bytes": 10654710,
+     "first_tick_utc": "2025-09-24 00:00:00.075",
+     "last_tick_utc": "2025-09-30 23:59:58.995"
+    },
+    {
+     "file": "XAUUSD_2025_w40.csv.gz",
+     "week": 40,
+     "date_from": "2025-10-01",
+     "date_to_exclusive": "2025-10-08",
+     "rows": 1507017,
+     "compressed_bytes": 11229803,
+     "first_tick_utc": "2025-10-01 00:00:00.050",
+     "last_tick_utc": "2025-10-07 23:59:58.012"
+    },
+    {
+     "file": "XAUUSD_2025_w41.csv.gz",
+     "week": 41,
+     "date_from": "2025-10-08",
+     "date_to_exclusive": "2025-10-15",
+     "rows": 2100500,
+     "compressed_bytes": 15768804,
+     "first_tick_utc": "2025-10-08 00:00:00.174",
+     "last_tick_utc": "2025-10-14 23:59:59.677"
+    },
+    {
+     "file": "XAUUSD_2025_w42.csv.gz",
+     "week": 42,
+     "date_from": "2025-10-15",
+     "date_to_exclusive": "2025-10-22",
+     "rows": 2409488,
+     "compressed_bytes": 18673351,
+     "first_tick_utc": "2025-10-15 00:00:00.029",
+     "last_tick_utc": "2025-10-21 23:59:59.561"
+    },
+    {
+     "file": "XAUUSD_2025_w43.csv.gz",
+     "week": 43,
+     "date_from": "2025-10-22",
+     "date_to_exclusive": "2025-10-29",
+     "rows": 2145816,
+     "compressed_bytes": 16775281,
+     "first_tick_utc": "2025-10-22 00:00:00.065",
+     "last_tick_utc": "2025-10-28 23:59:58.758"
+    },
+    {
+     "file": "XAUUSD_2025_w44.csv.gz",
+     "week": 44,
+     "date_from": "2025-10-29",
+     "date_to_exclusive": "2025-11-05",
+     "rows": 1803643,
+     "compressed_bytes": 13843984,
+     "first_tick_utc": "2025-10-29 00:00:00.068",
+     "last_tick_utc": "2025-11-04 23:59:59.860"
+    },
+    {
+     "file": "XAUUSD_2025_w45.csv.gz",
+     "week": 45,
+     "date_from": "2025-11-05",
+     "date_to_exclusive": "2025-11-12",
+     "rows": 1360464,
+     "compressed_bytes": 10232240,
+     "first_tick_utc": "2025-11-05 00:00:00.062",
+     "last_tick_utc": "2025-11-11 23:59:57.288"
+    },
+    {
+     "file": "XAUUSD_2025_w46.csv.gz",
+     "week": 46,
+     "date_from": "2025-11-12",
+     "date_to_exclusive": "2025-11-19",
+     "rows": 1960416,
+     "compressed_bytes": 14949495,
+     "first_tick_utc": "2025-11-12 00:00:00.045",
+     "last_tick_utc": "2025-11-18 23:59:58.449"
+    },
+    {
+     "file": "XAUUSD_2025_w47.csv.gz",
+     "week": 47,
+     "date_from": "2025-11-19",
+     "date_to_exclusive": "2025-11-26",
+     "rows": 1866474,
+     "compressed_bytes": 14262088,
+     "first_tick_utc": "2025-11-19 00:00:00.006",
+     "last_tick_utc": "2025-11-25 23:59:59.577"
+    },
+    {
+     "file": "XAUUSD_2025_w48.csv.gz",
+     "week": 48,
+     "date_from": "2025-11-26",
+     "date_to_exclusive": "2025-12-03",
+     "rows": 1391958,
+     "compressed_bytes": 10434798,
+     "first_tick_utc": "2025-11-26 00:00:00.784",
+     "last_tick_utc": "2025-12-02 23:59:57.997"
+    },
+    {
+     "file": "XAUUSD_2025_w49.csv.gz",
+     "week": 49,
+     "date_from": "2025-12-03",
+     "date_to_exclusive": "2025-12-10",
+     "rows": 1608439,
+     "compressed_bytes": 11795130,
+     "first_tick_utc": "2025-12-03 00:00:00.080",
+     "last_tick_utc": "2025-12-09 23:59:58.677"
+    },
+    {
+     "file": "XAUUSD_2025_w50.csv.gz",
+     "week": 50,
+     "date_from": "2025-12-10",
+     "date_to_exclusive": "2025-12-17",
+     "rows": 1762303,
+     "compressed_bytes": 13086462,
+     "first_tick_utc": "2025-12-10 00:00:00.081",
+     "last_tick_utc": "2025-12-16 23:59:59.712"
+    },
+    {
+     "file": "XAUUSD_2025_w51.csv.gz",
+     "week": 51,
+     "date_from": "2025-12-17",
+     "date_to_exclusive": "2025-12-24",
+     "rows": 1654596,
+     "compressed_bytes": 12247748,
+     "first_tick_utc": "2025-12-17 00:00:00.064",
+     "last_tick_utc": "2025-12-23 23:59:59.014"
+    },
+    {
+     "file": "XAUUSD_2025_w52.csv.gz",
+     "week": 52,
+     "date_from": "2025-12-24",
+     "date_to_exclusive": "2025-12-31",
+     "rows": 1795033,
+     "compressed_bytes": 13521454,
+     "first_tick_utc": "2025-12-24 00:00:00.070",
+     "last_tick_utc": "2025-12-30 23:59:59.455"
+    },
+    {
+     "file": "XAUUSD_2025_w53.csv.gz",
+     "week": 53,
+     "date_from": "2025-12-31",
+     "date_to_exclusive": "2026-01-01",
+     "rows": 440904,
+     "compressed_bytes": 3276119,
+     "first_tick_utc": "2025-12-31 00:00:00.007",
+     "last_tick_utc": "2025-12-31 21:58:59.943"
+    }
+   ]
+  }
+ },
+ "update_policy": "final \u2014 calendar year 2025 is complete; the dataset is immutable",
+ "license": "MIT (code and packaging); data belongs to its original source and is provided as-is for research/education"
+}
