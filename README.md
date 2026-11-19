@@ -6,8 +6,10 @@ If you need high-resolution gold data for backtesting, quantitative research, ma
 
 ![XAUUSD 2025 daily close](charts/XAUUSD_2025_daily_close.png)
 
-> **Looking for 2026 data?** The companion repository
-> **[Touhid-HZ/xauusd-tick-data-2026](https://github.com/Touhid-HZ/xauusd-tick-data-2026)**
+> **Looking for 2024 data?** The companion repository
+> **[Touhid-HZ/xauusd-tick-data-2024](https://github.com/Touhid-HZ/xauusd-tick-data-2024)**
+> covers the complete 2024 calendar year — 56,217,145 ticks in 53 weekly files: gold's breakout year.
+> **Looking for 2026?** [Touhid-HZ/xauusd-tick-data-2026](https://github.com/Touhid-HZ/xauusd-tick-data-2026)
 > covers 2026 with 78.9M+ ticks and is auto-updated every week.
 
 ---
@@ -275,6 +277,7 @@ Row-by-row cross-validation against dukascopy-node plus a full integrity sweep o
 
 ## Related repositories
 
+- **[xauusd-tick-data-2024](https://github.com/Touhid-HZ/xauusd-tick-data-2024)** — the same dataset for 2024 (56,217,145 ticks): gold's breakout year, complete and immutable.
 - **[xauusd-tick-data-2026](https://github.com/Touhid-HZ/xauusd-tick-data-2026)** — the same dataset for 2026 (78.9M+ ticks so far), auto-updated every week via GitHub Actions.
 
 ## Attribution & disclaimer
